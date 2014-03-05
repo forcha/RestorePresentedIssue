@@ -1,6 +1,12 @@
 RestorePresentedIssue
 =====================
 
+## Update
+
+I could fix it adding a call to [window makeKeyAndVisible] inside application:willFinishLaunchingWithOptions:
+
+## Issue
+
 I created this project to isolate an issue I am having with state restoration and a presented view controller.
 
 I have root view controller that has a button that will present another view controller. Everything is done using storyboards.
